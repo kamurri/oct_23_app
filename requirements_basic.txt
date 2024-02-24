@@ -1,0 +1,10 @@
+urllib3
+bs4
+pandas
+string
+spacy
+seaborn
+scikit-learn
+wordcloud
+dash 
+io
