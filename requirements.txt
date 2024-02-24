@@ -1,7 +1,6 @@
 urllib3
 bs4
 pandas
-re
 string
 spacy
 seaborn
