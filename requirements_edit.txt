@@ -1,3 +1,5 @@
+took out: en-core-web-sm 
+
 annotated-types==0.6.0
 app==0.0.1
 argon2-cffi-bindings 
