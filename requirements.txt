@@ -8,3 +8,9 @@ cairosvg
 scipy
 pandas
 plotly
+urllib3
+bs4
+spacy
+scikit-learn
+wordcloud
+io

@@ -1,4 +1,5 @@
 took out: re package, en-core-web-sm, and package version numbers. pywin32 or leave in as pywin32==305.1
+*From requirements basic: took out re and string, seaborn
 
 annotated-types==0.6.0
 app==0.0.1
