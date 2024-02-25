@@ -13,3 +13,4 @@ bs4
 spacy
 scikit-learn
 wordcloud
+en-core-web-sm
