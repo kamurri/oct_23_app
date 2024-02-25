@@ -13,4 +13,3 @@ bs4
 spacy
 scikit-learn
 wordcloud
-io
