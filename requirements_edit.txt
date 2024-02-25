@@ -1,4 +1,4 @@
-took out: re package, en-core-web-sm, and package version numbers. pywin32 
+took out: re package, en-core-web-sm, and package version numbers. pywin32 or leave in as pywin32==305.1
 
 annotated-types==0.6.0
 app==0.0.1
