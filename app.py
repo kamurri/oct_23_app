@@ -56,8 +56,8 @@ import spacy
 nlp = spacy.load("en_core_web_sm")
 
 #Import visualization libraries
-import seaborn as sns
-sns.set(rc={'axes.facecolor':'white', 'figure.facecolor':'white'})
+#import seaborn as sns
+#sns.set(rc={'axes.facecolor':'white', 'figure.facecolor':'white'})
 
 #Clustering libraries
 #pip install scikit-learn
