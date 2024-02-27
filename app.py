@@ -239,12 +239,12 @@ def make_image(b,n,y,z):
     nkey = np.where(n == pd.Series(speaker_key))[0][0]
     if z == "all":
         if y == "tf-idf":
-            generate_wordcloud(XF.sum(axis=1),'All',method='idf').save(img, format='PNG')  
+            generate_wordcloud(XF.sum(axis=1),'All',method='tf-idf').save(img, format='PNG')  
         else:
             generate_wordcloud(YY,'All',method=y).save(img, format='PNG')
     else:
         if y == "tf-idf":
-            generate_wordcloud(XF[n],'dropdown',method='idf').save(img, format='PNG')  #currently not printing with title
+            generate_wordcloud(XF[n],'dropdown',method='tf-idf').save(img, format='PNG')  #currently not printing with title
         else:
             generate_wordcloud(Y[nkey],'dropdown',method=y).save(img, format='PNG')
     return 'data:image/png;base64,{}'.format(base64.b64encode(img.getvalue()).decode())
