@@ -186,24 +186,24 @@ app.layout = html.Div([
 
 def generate_wordcloud(data, title, method='words'):
     if method=="words":
-        cloud = WordCloud(width=960,
-                        height=768,
+        cloud = WordCloud(width=576,
+                        height=480,
                         max_words=150,
                         colormap='tab20c',
                         random_state=42,
                         stopwords=stopwords,
                         collocations=False).generate_from_text(data)
     if method=="bigrams":
-        cloud = WordCloud(width=960,
-                        height=768,
+        cloud = WordCloud(width=576,
+                        height=480,
                         max_words=150,
                         colormap='tab20c',
                         random_state=42,
                         stopwords=stopwords,
                         collocations=True).generate_from_text(data)
     if method == "tf-idf":
-        cloud = WordCloud(width=960,
-                        height=768,
+        cloud = WordCloud(width=576,
+                        height=480,
                         max_words=150,
                         colormap='tab20c',
                         random_state=42,
